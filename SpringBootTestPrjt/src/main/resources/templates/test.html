@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+    <table>
+        <tr th:each="vo : ${list}">
+            <td th:text="${vo.test}"></td>
+        </tr>
+    </table>
+</body>
+</html>
